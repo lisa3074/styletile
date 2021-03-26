@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,300&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="burger">
+        <img src="/svg/burger.svg" />
+      </div>
+      <div class="dropdown hide add_opacity">
+        <ul>
+          <li class="menu_elements">Medium link</li>
+          <li class="menu_elements">Longer link</li>
+          <li class="menu_elements">Shorter</li>
+          <li class="menu_elements">Menu</li>
+        </ul>
+      </div>
+      <div class="menu">
+        <div></div>
+        <ul>
+          <li class="menu_elements">Medium link</li>
+          <li class="menu_elements">Longer link</li>
+          <li class="menu_elements">Shorter</li>
+          <li class="menu_elements">Menu</li>
+        </ul>
+        <div class="search_bar">
+          <input type="search" id="search" placeholder="search" />
+          <img class="search" src="/svg/search.svg" />
+        </div>
+
+        <img class="cart" src="/svg/shoppingbag.svg" />
+        <img class="profile_menu" src="/svg/profile.svg" />
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <article class="section1">
+          <div>
+            <h1>Say hello to PhotOps</h1>
+            <h3>- Your Professional online gallery</h3>
+            <p>
+              Fusce imperdiet pretium lacus ac aliquam. Aenean eget ornare justo, eget sodales urna. Suspendisse
+              tristique lectus bibendum aliquam ultricies. Orci varius natoque penatibus et magnis dis parturient
+              montes, nascetur ridiculus mus. Lorem ipsum.
+            </p>
+            <h2>What can you expect?</h2>
+            <p>
+              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridicules mus. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Duis eu aliquam velit. Praesent velit enim, faucibus eu pretium ac,
+              sagittis id nunc. Sed fringilla quis enim non vulputate. Orci varius natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus.
+            </p>
+          </div>
+          <div class="flex_wrapper">
+            <div class="photo_box">
+              <img
+                class="gallery_photo"
+                src="/pics/diego-ph-fIq0tET6llw-unsplash.jpg"
+                alt="Photo by Diego PH: https://unsplash.com/@jdiegoph"
+              />
+              <div class="overlay">
+                <p class="title">Light bulb</p>
+                <div class="options">
+                  <div class="secondary float"><img src="/svg/insights.svg" alt="Insights" /></div>
+                  <div class="primary float"><img src="/svg/edit.svg" alt="Edit" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="primary btn">Primary</button>
+              <button class="secondary btn">Secondary</button>
+              <button class="tertiary btn">Tertiary</button>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section>
+        <article class="background">
+          <article class="section2">
+            <div class="photo_box">
+              <img
+                class="gallery_photo"
+                src="/pics/pawel-czerwinski-iCI8FV2p_5k-unsplash.jpg"
+                alt="Photo by Paweł Czerwiński: https://unsplash.com/@pawel_czerwinski"
+              />
+              <div class="overlay">
+                <p class="title">Stones</p>
+                <div class="options">
+                  <div class="secondary float"><img src="/svg/favorite.svg" alt="Favorite" /></div>
+                  <div class="primary float"><img src="/svg/addToCart.svg" alt="Add to cart" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="comment_container">
+              <div class="comment_wrapper">
+                <img
+                  src="/pics/freestocks-8a95EVm0ovQ-unsplash.jpg"
+                  alt="Sara Sørensen Photo by Freestocks: https://unsplash.com/@freestocks"
+                  class="profile gallery_photo"
+                />
+                <div class="comment">
+                  <p class="profile_name">Sara Sørensen</p>
+                  <p class="time_sent">Wed, 1st of Feb, 2021 at 9.46 PM</p>
+                  <p>This is a photo comment!</p>
+                </div>
+              </div>
+              <div class="comment_wrapper">
+                <img
+                  src="/pics/ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg"
+                  alt="Martha Stewart Photo by Ayo Ogunseinde: https://unsplash.com/@armedshutte"
+                  class="profile gallery_photo"
+                />
+                <div class="comment">
+                  <p class="profile_name">Martha Steward</p>
+                  <p class="time_sent">Thur, 2nd of Feb, 2021 at 9.46 PM</p>
+                  <p>
+                    This is a photo comment! Fusce imperdiet pretium lacus ac aliquam. Orci varius natoque penatibus et
+                    magnis dis parturient montes, nascetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="modal section3">
+            <div>
+              <div>
+                <h1>Heading 1</h1>
+                <p>Font: IBM Plex Sans</p>
+                <p>Size: </p>
+                 <ul class="list">
+                      <li>Mobile: 35px/2rem</li>
+                      <li>Desktop: 37px/2.3rem</li>
+                    </ul> 
+                <p>Weight: Medium / 500</p>
+              </div>
+              <div>
+                <h2>Heading 2</h2>
+                <p>Font: IBM Plex Sans</p>
+                <p>Size: </p>
+                  <ul class="list">
+                      <li>Mobile: 24px/1.5rem</li>
+                      <li>Desktop: 27px/1.7rem</li>
+                    </ul> 
+                <p>Weight: Medium / 500</p>
+              </div>
+              <div>
+                <h3>Heading 3</h3>
+                <p>Font: IBM Plex Sans</p>
+                <p>Size: </p>
+                  <ul class="list">
+                      <li>Mobile: 19px/1.2rem</li>
+                      <li>Desktop: 17px/1.1rem</li>
+                    </ul> 
+                <p>Weight: Regular / 400</p>
+                <p>Style: Italic</p>
+              </div>
+              <div>
+                <p class="menu_elements">Menu elements</p>
+                <p>Font: Roboto </p>
+                 <p>  Size: 11px/0.7rem </p>
+                 <p>  Weight: Regular / 400</p>
+              </div>
+              <div>
+                <p class="title">Photo titles</p>
+                <p>Font: IBM Plex Sans </p>
+                   <p>Size:</p>
+                      <ul class="list">
+                      <li>Mobile:  14px/0.9rem</li>
+                      <li>Desktop:  13px/0.8rem</li>
+                    </ul> 
+                      <p>Weight: Medium / 500</p>
+              </div>
+              <div>
+                <p>Paragraph</p>
+                <p>
+                  Font: Roboto</p>
+                   <p>  Size: </p>
+                    <ul class="list">
+                      <li>Mobile: 14px/0.9rem</li>
+                      <li>Desktop: 13px/0.8rem</li>
+                    </ul> 
+                   <p>  Line height: 19px/1.2rem m</p>
+                    <p> Weight: light / 300</p>
+                </p>
+              </div>
+            </div>
+            <div class="color_container">
+              <p class="upsidedown">Color palette</p>
+              <div class="color_wrapper">
+                <div class="color">
+                  <div class="black"></div>
+                </div>
+                <div class="color">
+                  <div class="dark_gray"></div>
+                </div>
+                <div class="color">
+                  <div class="med_gray"></div>
+                </div>
+                <div class="color">
+                  <div class="light_gray"></div>
+                </div>
+                <div class="color">
+                  <div class="white"></div>
+                </div>
+                <div class="color">
+                  <div class="orange"></div>
+                </div>
+                <div class="color">
+                  <div class="blue"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </article>
+      </section>
+    </main>
+    <script src="burger.js"></script>
+  </body>
+</html>
